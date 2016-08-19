@@ -14,3 +14,5 @@ if ( $("h1").text() === "Go!" ){
 } else {
   console.log( 'Can you make it say "Go!"?' );
 }
+
+$('h1').append(" " +'Go!');

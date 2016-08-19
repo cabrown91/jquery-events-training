@@ -6,4 +6,8 @@ $(document).ready(function(){
 
   $("#time").text( Date.now() );
 
-})
+  $('input').on("click", function handleClick(event){
+    event.preventDefault();
+  });
+
+});
